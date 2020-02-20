@@ -4,7 +4,7 @@ class App < Sinatra::Base
   
   configure do 
     enable :sessions 
-    set :session_secret, :bilbo_baggins
+    set :session_secret, "Bilbo Baggins"
   
   get '/' do 
     erb :index
